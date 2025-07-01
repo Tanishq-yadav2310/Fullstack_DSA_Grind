@@ -8,3 +8,30 @@ function greet(name){
 }
 
 let messagge = greet("Tanishq");
+
+function sum(a,b){
+    let totalSum = a + b;
+    return totalSum;
+}
+let ans = sum(3,5);
+
+function canVote(age){
+    if(age >= 18){
+        return true;
+    }else{
+        return false;
+    }
+}
+let vote = canVote(21);
+
+//loops
+
+let names = ["tanishq", "harkirat", "kirat"];
+for(let i = 0; i<3; i++){
+    console.log(names[i]);
+}
+let j = 0;
+while(j<3){
+    console.log(names[i]);
+    i++;
+}
