@@ -12,3 +12,4 @@
 - Learned multidimensional arrays, how to take their input and output.
 - Learnes Arraylist in java and its differnt methods to manipulate the list.
 - Solved maxinum number in a arrray, how to swap values in an aarray, how to reverse the array.
+- Methods in java, method overloading, method arguments etc.
