@@ -9,3 +9,5 @@
 
 # Java
 - Learned arrays , how to take input of elements in array.
+- Learned multidimensional arrays, how to take their input and output.
+- Learnes Arraylist in java.

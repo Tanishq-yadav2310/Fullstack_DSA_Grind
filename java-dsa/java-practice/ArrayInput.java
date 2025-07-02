@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayInput {
@@ -9,7 +10,11 @@ public class ArrayInput {
             arr[i] = sc.nextInt();
         }
         for(int element : arr){
-            System.out.println(element);
+            System.out.print( element + " " );
         }
+        // another method for printing arrays
+        int[] newArr = {12,23,12,23,21};
+        System.out.println();
+        System.out.println(Arrays.toString(newArr));
     }
 }
