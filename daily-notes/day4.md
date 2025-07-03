@@ -3,7 +3,7 @@
 #What I did today
 
 ## MERN Cohort
-
+- Learned classes in js and how to create it.
 
 
 
