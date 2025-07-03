@@ -8,4 +8,4 @@
 - Promises in js.
 
 ## Java
-
+- Practiced various patterns in java.
