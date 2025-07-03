@@ -4,7 +4,7 @@
 
 ## MERN Cohort
 - Learned classes in js and how to create it.
-
+- Map class in js.
 
 
 ## Java
