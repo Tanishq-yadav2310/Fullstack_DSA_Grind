@@ -7,7 +7,7 @@
 - how to solve callback hell with promises.
 - what is Async and await and how to use them.
 - DOM manipulation.
-
+- How to get data from the page and use it.
 
 # Java:
 
