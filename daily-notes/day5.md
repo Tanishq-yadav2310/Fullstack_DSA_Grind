@@ -4,7 +4,7 @@
 
 # MERN Cohort:
 - Learned what is callback hell in js.
-
+- how to solve callback hell with promises.
 
 
 
