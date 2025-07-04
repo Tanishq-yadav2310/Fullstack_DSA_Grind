@@ -11,3 +11,4 @@ async function solve() {
     console.log("Hello there");
 }
 solve();
+console.log("Outside the async function");
