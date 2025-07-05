@@ -3,8 +3,8 @@
 ## What I did today:
 
 # MERN Cohort:-
-- 
-- 
+- Created a basic CRUD Todo mini project 
+- Advanced DOM 
 - 
 -
 -
