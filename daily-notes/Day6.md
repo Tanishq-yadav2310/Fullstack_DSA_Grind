@@ -5,7 +5,7 @@
 # MERN Cohort:-
 - Created a basic CRUD Todo mini project 
 - Advanced DOM 
-- 
+- Learned another way of manipulating todo logic.
 -
 -
 
