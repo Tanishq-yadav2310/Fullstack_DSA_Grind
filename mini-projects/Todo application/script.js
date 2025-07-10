@@ -29,6 +29,7 @@ const divElement = document.createElement("div");
 const spanElement = document.createElement("span");
 const btnElement = document.createElement("button");
 spanElement.innerHTML = inputValue;
+
 btnElement.innerHTML = "Delete todo";
 
 divElement.appendChild(spanElement); 
