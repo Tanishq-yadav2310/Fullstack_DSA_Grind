@@ -1,6 +1,6 @@
 // using cli package commander to create cli 
 const { Command } = require('commander');
-const program = new command;
+const program = new Command;
 const fs = require('fs');
 
 program
@@ -17,7 +17,7 @@ program.command('count')
                 console.log(err);
             }else{
                 const words = data.split(" ").length
-                console.log(`there are ${ words + 1} words in ${file}`)
+                console.log(`there are ${ words} words in ${file}`)
             }
         });
     });
