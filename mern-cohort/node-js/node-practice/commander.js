@@ -15,7 +15,8 @@ program.command('count')
         fs.readFile(file, 'utf-8', (err, data) =>{
             if(err){
                 console.log(err);
-            }else{
+            }else{ 
+                
                 const words = data.split(" ").length
                 console.log(`there are ${ words} words in ${file}`)
             }
