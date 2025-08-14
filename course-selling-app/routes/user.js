@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { userModel } = require('../db');
+const { userModel, purchaseModel } = require('../db');
 const jwt = require('jsonwebtoken');
 const { JWT_USER_PASSWORD } = require('../config')
 const userRouter = Router();
@@ -30,7 +30,7 @@ userRouter.post('/signin', async function(req,res){
     if(user){
         const token = jwt.sign({
             id : user._id
-        }, JWT_USER_PASSWORD);
+        }, process.env.JWT_USER_PASSWORD);
 
         res.json({
             token : token,
@@ -42,9 +42,16 @@ userRouter.post('/signin', async function(req,res){
     }
 });
 
-userRouter.get('/purchases', function(req,res){
+userRouter.get('/purchases', async function(req,res){
+    const userId = req.userId;
+
+    const purchasedCourses = await purchaseModel.find({
+        userId,
+    })
     res.json({
-        message:'user purchased courses endpoint'
+        message:'following are your purchased courses',
+        
+        purchasedCourses,
     })
 });
 
