@@ -50,7 +50,6 @@ userRouter.get('/purchases', async function(req,res){
     })
     res.json({
         message:'following are your purchased courses',
-        
         purchasedCourses,
     })
 });
