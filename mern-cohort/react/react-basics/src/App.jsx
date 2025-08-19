@@ -13,7 +13,7 @@ function Counter() {
 useEffect(function(){
   setInterval(function(){
   setCount(count => count +1)
-},1000);
+},1000); 
 },[]);
 
 return <div>
